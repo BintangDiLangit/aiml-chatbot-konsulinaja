@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+<category>
+    <pattern>
+        APA ITU KONSULINAJA
+    </pattern>
+    <template>
+        KonsulinAja adalah platform E-Manufaktur yang menjual aplikasi berbasis web, mobile, dan multiplatform.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA KEUNTUNGAN MENGGUNAKAN JASA DARI KONSULINAJA
+    </pattern>
+    <template>
+        Kamu gaperlu khawatir, di Konsulinaja, 
+        kamu akan mendapatkan jasa pembuatan 
+        project yang lengkap dan terpercaya, selain itu, 
+        kamu juga akan mendapatkan
+        bimbingan dari kami dari proses instalasi project 
+        Dan konfigurasi apabila project telah dikonfigurasi.
+    </template>
+</category>
+
+</aiml>

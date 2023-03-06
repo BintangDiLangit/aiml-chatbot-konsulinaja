@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>
+        AKU MAU BIKIN *
+    </pattern>
+    <template>
+        Aplikasi <set name = "jenis-aplikasi"><star/></set>  yang kamu bikin
+        apakah berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
+    </template>
+</category>
+
+<category>
+    <pattern>
+        JASA PEMBUATAN *
+    </pattern>
+    <template>
+        Aplikasi <set name = "platform"><star/></set>  apa yang mau kamu bikin
+        apakah "sistem informasi", "sistem pembelajaran" atau "lainnya"?
+    </template>
+</category>
+
+<category>
+    <pattern>
+        AKU MAU ORDER *
+    </pattern>
+    <template>
+        GASSIINN,.. SIlahkan daftar di platform kita ya
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BERBASIS *
+    </pattern>
+    <that>
+        Aplikasi <get name = "jenis-aplikasi"/>  yang kamu bikin
+        itu berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
+    </that>
+    <template>
+        Untuk <get name = "jenis-aplikasi"/> berbasis 
+        <set name="platform"><star/></set>
+        , kami mematok mulai dari 500k-5000k ya kak
+    </template>
+</category>
+
+<category>
+    <pattern>
+        _ SISTEM PEMBELAJARAN _
+    </pattern>
+    <that>
+        boleh dong diceritain detail aplikasi multiplatform yang bakal dibuat nanti?
+    </that>
+    <template>
+        Untuk Sistem Informasi, kami mematok mulai dari 500k-5000k ya kak
+    </template>
+</category>
+
+<category>
+    <pattern>
+        _ LEARNING _
+    </pattern>
+    <that>
+        boleh dong diceritain detail aplikasi multiplatform yang bakal dibuat nanti?
+    </that>
+    <template>
+        Untuk Sistem Informasi, kami mematok mulai dari 500k-5000k ya kak
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA YANG ANDA TAWARKAN SEBAGAI LAYANAN PEMBUATAN WEB DAN MOBILE APLIKASI
+    </pattern>
+    <template>
+        Kami menawarkan pembuatan dan perbaikan berbagai aplikasi seperti Toko Online, Sistem Informasi dan masih banyak lagi
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA KUALIFIKASI TIM ANDA UNTUK MEMBANGUN APLIKASI
+    </pattern>
+    <template>
+        Kami memiliki tim yang kompeten dari sisi developer, tester, dan manajemen.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA METODE PENGEMBANGAN YANG ANDA GUNAKAN
+    </pattern>
+    <template>
+        Kami menggunakan metode SOLID
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BERAPA LAMA WAKTU YANG DIBUTUHKAN UNTUK MEMBUAT APLIKASI
+    </pattern>
+    <template>
+        Rata-rata lama waktu yang dibutuhkan adalah 2 bulan, namun tetap menyesuaikan dengan kompleksitas sistem
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA BAHASA PEMROGRAMAN YANG DIGUNAKAN UNTUK MEMBANGUN APLIKASI
+    </pattern>
+    <template>
+        Kami menggunakan PHP, Javascript, Dart, dan Golang
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH APLIKASI YANG ANDA BUAT DAPAT DIGUNAKAN PADA PLATFORM YANG BERBEDA
+    </pattern>
+    <template>
+        Tentu, kami mengembangkan multiplatform (Mobile dan Device)
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH APLIKASI YANG ANDA BUAT RESPONSIVE
+    </pattern>
+    <template>
+        Tentu
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA KELEBIHAN APLIKASI YANG ANDA BUAT DIBANDINGKAN DENGAN YANG LAIN
+    </pattern>
+    <template>
+        Aplikasi yang kami bangun memiliki tingkat keamanan yang sudah terverifikasi, dan sudah melalui tahap testing desain dan program untuk meminimalisir BUG
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MEMERLUKAN INFORMASI TAMBAHAN DARI KLIEN SEBELUM MEMULAI PROYEK
+    </pattern>
+    <template>
+        Tentu
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS INFORMASI YANG DIBUTUHKAN OLEH TIM ANDA UNTUK MEMBANGUN APLIKASI
+    </pattern>
+    <template>
+        Ada beberapa informasi yang kami butuhkan, antara lain Budget, Jenis Platform, dsb
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN KEAMANAN DATA DALAM APLIKASI
+    </pattern>
+    <template>
+        Ada beberapa aspek untuk menjamin keamanan data dari aplikasi yang kami buat, antara lain Melakukan testing aplikasi, menerapkan clean code.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENYEDIAKAN DUKUNGAN UNTUK APLIKASI SETELAH PROYEK SELESAI
+    </pattern>
+    <template>
+        Iya, kami menyediakan dukungan maintenance aplikasi atau server setelah aplikasi selesai dibuat
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN SETELAH PROYEK SELESAI
+    </pattern>
+    <template>
+        Untuk biaya tambahan, menyesuaikan dengan seberapa besar dukungan atau maintenance yang perlu kami lakukan atau anda butuhkan
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA GARANSI UNTUK APLIKASI YANG DIBUAT
+    </pattern>
+    <template>
+        Ada, apabila aplikasi tidak berjalan dengan baik selama range waktu (sesuai kesepakatan awal) yang ditentukan
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH DAN BUG DALAM APLIKASI YANG ANDA BUAT
+    </pattern>
+    <template>
+        Melakukan tracing dan calling error untuk menghasilkan error yang ada, lalu melakukan fixing BUG
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENGHASILKAN LAPORAN UNTUK KLIEN TENTANG KEMAJUAN PROYEK
+    </pattern>
+    <template>
+        Tentu, kami biasanya melakukan report selama seminggu sekali
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA CARA ANDA BERKOMUNIKASI DENGAN KLIEN SELAMA PROYEK
+    </pattern>
+    <template>
+        Project Manager kami yang akan melakukan komunikasi langsung dengan anda (client)
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN SELAMA PROYEK BERLANGSUNG_
+    </pattern>
+    <template>
+        Reporting, Saran pengembangan aplikasi dan fitur, serta penyesuaikan budget dan waktu
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA PROYEK AKAN SELESAI TEPAT WAKTU
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS APLIKASI YANG PALING SERING ANDA BUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENENTUKAN HARGA UNTUK PROYEK
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENAWARKAN HARGA TETAP ATAU BIAYA PROYEK PER JAM
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENERIMA PEMBAYARAN DENGAN CICILAN ATAU UANG MUKA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MEMASTIKAN BAHWA APLIKASI YANG DIBUAT SESUAI DENGAN KEINGINAN KLIEN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENGUJI APLIKASI SEBELUM DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENENTUKAN KEBERHASILAN APLIKASI YANG DIBUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MEMERIKSA APLIKASI SECARA BERKALA SETELAH DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA YANG HARUS DILAKUKAN JIKA ADA MASALAH SETELAH APLIKASI DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENERIMA REVISI SETELAH APLIKASI DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENAWARKAN DUKUNGAN UNTUK APLIKASI SETELAH DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN SETELAH APLIKASI DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENGUKUR KEPUASAN KLIEN SETELAH PROYEK SELESAI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN SETELAH APLIKASI DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENENTUKAN TINGKAT DUKUNGAN YANG DIBUTUHKAN SETELAH APLIKASI DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENYEDIAKAN PELATIHAN PENGGUNAAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK PELATIHAN PENGGUNAAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA JAMINAN UNTUK KUALITAS APLIKASI YANG DIBUAT?
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MENAWARKAN INTEGRASI DENGAN SISTEM LAIN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS SISTEM LAIN YANG DAPAT DIINTEGRASIKAN DENGAN APLIKASI YANG ANDA BUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIINTEGRASIKAN DENGAN SISTEM LAIN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK INTEGRASI DENGAN SISTEM LAIN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENENTUKAN KEBUTUHAN INTEGRASI DENGAN SISTEM LAIN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK INTEGRASI DENGAN SISTEM LAIN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MEMASTIKAN BAHWA APLIKASI YANG DIBUAT MUDAH DIGUNAKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ANDA MELAKUKAN UJI COBA PENGGUNAAN APLIKASI SEBELUM DILUNCURKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENENTUKAN KEBUTUHAN FUNGSIONAL APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS TEKNOLOGI YANG DIGUNAKAN UNTUK MEMBUAT APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK PENGGUNAAN TEKNOLOGI TERTENTU
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT AMAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK KEAMANAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS FITUR KEAMANAN YANG DITERAPKAN PADA APLIKASI YANG DIBUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI PERUBAHAN PERMINTAAN KLIEN SELAMA PROYEK BERLANGSUNG
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA YANG HARUS DILAKUKAN JIKA ADA KESALAHAN DALAM PERMINTAAN KLIEN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA PROYEK SESUAI DENGAN JADWAL YANG TELAH DITETAPKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN JIKA PROYEK MELEBIHI JADWAL YANG TELAH DITETAPKAN?
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN JIKA PROYEK DISELESAIKAN LEBIH CEPAT DARI JADWAL YANG TELAH DITETAPKAN
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK PENGEMBANGAN APLIKASI SETELAH PROYEK SELESAI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN PENGEMBANGAN SETELAH PROYEK SELESAI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT MUDAH DIAKSES OLEH PENGGUNA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK PENGAKSESAN APLIKASI OLEH PENGGUNA TERTENTU
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH SKALABILITAS APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH SKALABILITAS APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH SKALABILITAS APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIAKSES DARI BERBAGAI LOKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK AKSES APLIKASI DARI LOKASI TERTENTU
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIAKSES DARI BERBAGAI PERANGKAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK AKSES APLIKASI DARI PERANGKAT TERTENTU
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH KOMPATIBILITAS APLIKASI DENGAN SISTEM OPERASI YANG BERBEDA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH KOMPATIBILITAS APLIKASI DENGAN SISTEM OPERASI YANG BERBEDA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH KOMPATIBILITAS APLIKASI DENGAN SISTEM OPERASI YANG BERBEDA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIGUNAKAN OLEH PENGGUNA DENGAN KEBUTUHAN AKSESIBILITAS?
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH KINERJA APLIKASI?
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH KINERJA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH KINERJA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT MENGAKOMODASI VOLUME PENGGUNA YANG BESAR
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK VOLUME PENGGUNA YANG BESAR PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH KEANDALAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH KEANDALAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH KEANDALAN APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT MEMPROSES TRANSAKSI YANG KOMPLEKS
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK MEMPROSES TRANSAKSI YANG KOMPLEKS PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH PRIVASI PENGGUNA PADA APLIKASI YANG DIBUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH PRIVASI PENGGUNA PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH PRIVASI PENGGUNA PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT MENANGANI DATA SENSITIF PENGGUNA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK MENANGANI DATA SENSITIF PENGGUNA PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH KEAMANAN PADA APLIKASI YANG DIBUAT
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH KEAMANAN PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH KEAMANAN PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIUJI KEAMANANNYA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK PENGUJIAN KEAMANAN PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH PERFORMA APLIKASI PADA PERANGKAT DENGAN SPESIFIKASI RENDAH
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH PERFORMA APLIKASI PADA PERANGKAT DENGAN SPESIFIKASI RENDAH
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK DUKUNGAN MASALAH PERFORMA APLIKASI PADA PERANGKAT DENGAN SPESIFIKASI RENDAH
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENJAMIN BAHWA APLIKASI YANG DIBUAT DAPAT DIAKSES SECARA OFFLINE
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APAKAH ADA BIAYA TAMBAHAN UNTUK AKSES OFFLINE PADA APLIKASI
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH INTERAKSI ANTARA APLIKASI DENGAN PERANGKAT KERAS YANG BERBEDA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH INTERAKSI ANTARA APLIKASI DENGAN PERANGKAT KERAS YANG BERBEDA
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BERAPA BIAYA _
+    </pattern>
+    <template>
+        Untuk biaya, menyesuaikan dengan permintaan kamu yaa, Kita bisa mulai dari IDR 99k
+    </template>
+</category>
+
+<category>
+    <pattern>
+        BAGAIMANA ANDA MENANGANI MASALAH KETERGANTUNGAN APLIKASI TERHADAP JARINGAN INTERNET
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        APA JENIS DUKUNGAN YANG ANDA BERIKAN UNTUK MASALAH KETERGANTUNGAN APLIKASI TERHADAP JARINGAN INTERNET
+    </pattern>
+    <template>
+        TES
+    </template>
+</category>
+
+<category>
+    <pattern>
+        *
+    </pattern>
+    <template>
+        Hemm, aku kurang memahami bahasamu. 
+        Aku harap pembahasan kita tetap pada lingkup pembuatan project di KonsulinAja yaa
+    </template>
+</category>
+
+
+</aiml>

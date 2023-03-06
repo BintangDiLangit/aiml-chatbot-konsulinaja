@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>
+        HALO *
+    </pattern>
+    <template>
+        Haiii, salam kenal. 
+        Aku HITO, yang bakal memandu kamu buat berselancar di platform ini
+    </template>
+</category>
+
+<category>
+    <pattern>
+        HALO
+    </pattern>
+    <template>
+        Haiii, salam kenal. 
+        Aku HITO, yang bakal memandu kamu buat berselancar di platform ini
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+        * KAMU SIAPA *
+    </pattern>
+    <template>
+        Aku HITO, robot pemandu di KonsulinAja. Salam Kenal
+    </template>
+</category>
+
+<category>
+    <pattern>
+        KAMU LUCU
+    </pattern>
+    <template>
+        Makasiiii, aku emang lucu, hehe.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        _ MAKASI _
+    </pattern>
+    <template>
+        Terima Kasih Kembali..
+    </template>
+</category>
+
+<category>
+    <pattern>
+        _ OKE _
+    </pattern>
+    <template>
+        SIAPPP
+    </template>
+</category>
+
+</aiml>
