@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>
+        apakah rahasia saya akan terjamin
+    </pattern>
+    <template>
+        Tentu, kami mengutamakan privasi untuk customer
+    </template>
+</category>
+
+<category>
+    <pattern>
+        jika saya ingin bikin aplikasi kira-kira berapa waktu yang dibutuhkan
+    </pattern>
+    <template>
+        Tergantung dari kekompleksan sistem yang akan dibuat, rata-rata kami membutuhkan 1-2 bulan untuk skala aplikasi kecil hingga menengah
+    </template>
+</category>
+
+<category>
+    <pattern>
+        berapa tarif untuk waktu pengerjaan kurang dari seminggu
+    </pattern>
+    <template>
+        Kami tidak bisa menyebutkan secara spesifik, karena varian aplikasi yang kami bangun memiliki tingkatan masing-masing.
+        Kami bisa start from 99k aja. Yuk gas chat admin.
+    </template>
+</category>
+
+
+</aiml>

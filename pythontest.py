@@ -1,0 +1,17 @@
+import jwt
+
+public_key = """-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0vMFxSCnh3nsYADTQY3A
+yNoX221oW4a77swP4MR7pxLkEBMHFdIzIYQQTtoHAKepLZJ8CI1o/2DUsQHq/tf3
+wJX+SG+wgGGGzXfUD1sEOyNR8Kh5EdqZE/AdjEIhrtHqfDyDJLovdAkhf3uS45UE
+sh498bpceGJSVMw/aoc4f33ZQNnkI8zg5C7IfjpcX9Ab7IkvWScfbochSY8NMXUN
+cwKtAdxfRX76tcXk523rFXlYSnNr1N23SciUjvmzsRT/NXeMXOd+HmsMKEKgBMET
+P6cHJlY+vWnXy3t2MdqckI3sj8RpMrdjxAJCv1KNcmQ2cMFgkOP0K4VbMEea929E
+TwIDAQAB
+-----END PUBLIC KEY-----
+"""
+
+token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJob3N0IjoiamsxLmphZ29hbmhvc3RpbmcuY29tIiwia2V5IjoiVVFxMUJDWk16a2ZucDNocEtDUURqYlVNRE5JdGhsVTgiLCJwYXNzIjoiMm9rUnFXTFZRSWpoZ1luOUdnRGZHaFNDWlo3ZXVoaTgiLCJlbnZpcm9ubWVudCI6InByb2QifQ.zczRFKt-0HrEvrCECZcq7cVVmD9uIpFRf7hshQHb0zQ"
+
+decoded = jwt.decode(token, public_key, algorithms=['HS256'])
+print(decoded)

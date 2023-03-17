@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+  <pattern>WEB PLATFORM</pattern>
+  <template>
+    <random>
+      <li>Apakah Anda memiliki pertanyaan tentang pembuatan aplikasi berbasis web?</li>
+      <li>Silakan tanyakan apa saja tentang platform pembuatan aplikasi berbasis web.</li>
+      <li>Apa yang ingin Anda ketahui tentang platform pembuatan aplikasi berbasis web?</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>MOBILE PLATFORM</pattern>
+  <template>
+    <random>
+      <li>Silakan tanyakan apa saja tentang platform pembuatan aplikasi berbasis mobile.</li>
+      <li>Apa yang ingin Anda ketahui tentang platform pembuatan aplikasi berbasis mobile?</li>
+      <li>Apakah Anda memiliki pertanyaan tentang pembuatan aplikasi berbasis mobile?</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>APLIKASI WEB*</pattern>
+  <template>
+    <random>
+      <li>Apakah Anda ingin membuat aplikasi web? Saya bisa membantu memberikan informasi tentang platform yang cocok untuk proyek Anda.</li>
+      <li>Tentu saja, saya siap membantu Anda membuat aplikasi web. Silakan tanyakan apa saja yang ingin Anda ketahui tentang platform pembuatan aplikasi web.</li>
+      <li>Anda ingin membuat aplikasi web? Saya bisa membantu Anda menemukan platform yang tepat untuk memulai.</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>APLIKASI MOBILE*</pattern>
+  <template>
+    <random>
+      <li>Silakan tanyakan apa saja yang ingin Anda ketahui tentang platform pembuatan aplikasi mobile. Saya siap membantu.</li>
+      <li>Anda ingin membuat aplikasi mobile? Saya bisa membantu menemukan platform yang tepat untuk proyek Anda.</li>
+      <li>Tentu saja, saya siap membantu Anda membuat aplikasi mobile. Apa yang ingin Anda ketahui tentang platform pembuatan aplikasi mobile?</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>PLATFORM WEB*</pattern>
+  <template>
+    <random>
+      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi web: (list platform)</li>
+      <li>Silakan coba platform-platform berikut untuk membuat aplikasi web: (list platform)</li>
+      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi web: (list platform)</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>PLATFORM MOBILE*</pattern>
+  <template>
+    <random>
+      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi mobile: (list platform)</li>
+      <li>Silakan coba platform-platform berikut untuk membuat aplikasi mobile: (list platform)</li>
+      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi mobile: (list platform)</li>
+    </random>
+  </template>
+</category>
+
+</aiml>
