@@ -58,4 +58,13 @@
     </template>
 </category>
 
+<category>
+    <pattern>
+        OKE
+    </pattern>
+    <template>
+        Senang bisa membantu kamu
+    </template>
+</category>
+
 </aiml>

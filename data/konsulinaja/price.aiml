@@ -10,6 +10,33 @@
         apakah berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
     </template>
 </category>
+<category>
+    <pattern>
+        AKU MAU BUAT *
+    </pattern>
+    <template>
+        Aplikasi <set name = "jenis-aplikasi"><star/></set>  yang kamu bikin
+        apakah berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
+    </template>
+</category>
+<category>
+    <pattern>
+        SAYA MAU BIKIN *
+    </pattern>
+    <template>
+        Aplikasi <set name = "jenis-aplikasi"><star/></set>  yang kamu bikin
+        apakah berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
+    </template>
+</category>
+<category>
+    <pattern>
+        SAYA MAU BUAT *
+    </pattern>
+    <template>
+        Aplikasi <set name = "jenis-aplikasi"><star/></set>  yang kamu bikin
+        apakah berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
+    </template>
+</category>
 
 <category>
     <pattern>
@@ -34,10 +61,6 @@
     <pattern>
         BERBASIS *
     </pattern>
-    <that>
-        Aplikasi <get name = "jenis-aplikasi"/>  yang kamu bikin
-        itu berbasis "web", "mobile" atau "multiplatform (web dan mobile)"?
-    </that>
     <template>
         Untuk <get name = "jenis-aplikasi"/> berbasis 
         <set name="platform"><star/></set>
@@ -98,6 +121,15 @@
 
 <category>
     <pattern>
+        APA METODE PENGEMBANGAN YANG DI GUNAKAN
+    </pattern>
+    <template>
+        Kami menggunakan metode SOLID
+    </template>
+</category>
+
+<category>
+    <pattern>
         BERAPA LAMA WAKTU YANG DIBUTUHKAN UNTUK MEMBUAT APLIKASI
     </pattern>
     <template>
@@ -125,7 +157,7 @@
 
 <category>
     <pattern>
-        APAKAH APLIKASI YANG ANDA BUAT RESPONSIVE
+        APAKAH APLIKASI YANG ANDA BUAT RESPONSIF
     </pattern>
     <template>
         Tentu
@@ -236,7 +268,7 @@
         BAGAIMANA ANDA MENJAMIN BAHWA PROYEK AKAN SELESAI TEPAT WAKTU
     </pattern>
     <template>
-        TES
+        Tenang kak, Akan ada surat kontrak atau perjanjian dari kami.
     </template>
 </category>
 
@@ -245,7 +277,7 @@
         APA JENIS APLIKASI YANG PALING SERING ANDA BUAT
     </pattern>
     <template>
-        TES
+        Aplikasi sistem informasi, POS, Ecommerce.
     </template>
 </category>
 
@@ -254,7 +286,7 @@
         BAGAIMANA ANDA MENENTUKAN HARGA UNTUK PROYEK
     </pattern>
     <template>
-        TES
+        Tergantung kerumitan aplikasi dan lama pengerjaan.
     </template>
 </category>
 
@@ -263,7 +295,7 @@
         APAKAH ANDA MENAWARKAN HARGA TETAP ATAU BIAYA PROYEK PER JAM
     </pattern>
     <template>
-        TES
+        Tidak kak
     </template>
 </category>
 
@@ -272,7 +304,7 @@
         APAKAH ANDA MENERIMA PEMBAYARAN DENGAN CICILAN ATAU UANG MUKA
     </pattern>
     <template>
-        TES
+        Tentu, kami biasanya menerima DP terlebih dahulu setelah kami berikan surat kontrak.
     </template>
 </category>
 

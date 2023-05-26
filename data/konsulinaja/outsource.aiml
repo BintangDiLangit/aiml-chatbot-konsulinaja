@@ -24,7 +24,7 @@
 </category>
 
 <category>
-  <pattern>APLIKASI WEB*</pattern>
+  <pattern>APLIKASI WEB</pattern>
   <template>
     <random>
       <li>Apakah Anda ingin membuat aplikasi web? Saya bisa membantu memberikan informasi tentang platform yang cocok untuk proyek Anda.</li>
@@ -35,7 +35,7 @@
 </category>
 
 <category>
-  <pattern>APLIKASI MOBILE*</pattern>
+  <pattern>APLIKASI MOBILE</pattern>
   <template>
     <random>
       <li>Silakan tanyakan apa saja yang ingin Anda ketahui tentang platform pembuatan aplikasi mobile. Saya siap membantu.</li>
@@ -46,23 +46,23 @@
 </category>
 
 <category>
-  <pattern>PLATFORM WEB*</pattern>
+  <pattern>PLATFORM WEB</pattern>
   <template>
     <random>
-      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi web: (list platform)</li>
-      <li>Silakan coba platform-platform berikut untuk membuat aplikasi web: (list platform)</li>
-      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi web: (list platform)</li>
+      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi web: (Laravel, Javascript)</li>
+      <li>Silakan coba platform-platform berikut untuk membuat aplikasi web: (Laravel, Javascript)</li>
+      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi web: (Laravel, Javascript)</li>
     </random>
   </template>
 </category>
 
 <category>
-  <pattern>PLATFORM MOBILE*</pattern>
+  <pattern>PLATFORM MOBILE</pattern>
   <template>
     <random>
-      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi mobile: (list platform)</li>
-      <li>Silakan coba platform-platform berikut untuk membuat aplikasi mobile: (list platform)</li>
-      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi mobile: (list platform)</li>
+      <li>Berikut adalah beberapa platform yang bisa Anda gunakan untuk membuat aplikasi mobile: (Flutter, Kotlin, React Native)</li>
+      <li>Silakan coba platform-platform berikut untuk membuat aplikasi mobile: (Flutter, Kotlin, React Native)</li>
+      <li>Anda bisa menggunakan platform-platform berikut untuk membuat aplikasi mobile: (Flutter, Kotlin, React Native)</li>
     </random>
   </template>
 </category>

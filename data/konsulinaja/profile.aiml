@@ -13,6 +13,24 @@
 
 <category>
     <pattern>
+        SIAPA KAMU
+    </pattern>
+    <template>
+        Aku adalah HITO, robot pintar yang akan membantu kamu menjelajah di platfom ini
+    </template>
+</category>
+
+<category>
+    <pattern>
+        KAMU SIAPA
+    </pattern>
+    <template>
+        Aku adalah HITO, robot pintar yang akan membantu kamu menjelajah di platfom ini
+    </template>
+</category>
+
+<category>
+    <pattern>
         APA KEUNTUNGAN MENGGUNAKAN JASA DARI KONSULINAJA
     </pattern>
     <template>
